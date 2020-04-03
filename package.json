@@ -1,6 +1,6 @@
 {
-  "name": "fcc-markdown-preview",
-  "homepage": "http://lucasrmp.github.io/fcc-markdown-preview",
+  "name": "xml2js",
+  "homepage": "http://lucasrmp.github.io/xml2js",
   "version": "0.1.0",
   "private": true,
   "dependencies": {
