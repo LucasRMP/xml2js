@@ -8,11 +8,7 @@ function Preview({ source }) {
 
   useEffect(() => {
     setParsedSource(
-      source
-        .replace('{', '"')
-        .replace('}', '"')
-        .split('\n')
-        .join('')
+      source.replace(/{/g, '"').replace(/}/g, '"').split('\n').join('')
     );
   }, [source]);
 
