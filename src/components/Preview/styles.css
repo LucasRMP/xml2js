@@ -1,0 +1,24 @@
+.preview-container {
+  padding: 15px;
+}
+
+#preview {
+  height: 90%;
+  padding: 25px 20px;
+  width: 93%;
+  resize: none;
+  outline: none;
+  overflow: auto;
+
+  border-width: 1px;
+  border-style: solid;
+  border-color: rgb(169, 169, 169);
+  border-image: initial;
+  border-radius: 8px;
+  background-color: #282a36;
+  color: #fff;
+}
+
+#preview:focus {
+  border-color: #ff79c6;
+}
